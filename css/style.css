@@ -1,0 +1,277 @@
+html, body { position:relative; height:100%; margin:0;}
+html {scroll-behavior: smooth;}
+
+
+@font-face {
+    font-family: Bradley Hand ITC TT;
+    src: url(https://www.energythink.com/fonts/bradley_hand_itc_tt_bold.ttf);
+}
+@font-face {
+    font-family: AGaramond;
+    src: url(https://www.energythink.com/test/fonts/AGaramond-Regular.otf);
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url(https://www.energythink.com/test/fonts/GothamBook.ttf);
+}
+@font-face {
+    font-family: SackersGothicStd;
+    src: url(../fonts/SackersGothicStd-Medium.otf);
+}
+@font-face {
+    font-family: SackersGothicStd Heavy;
+    src: url(../fonts/SackersGothicStd-Heavy.otf);
+}
+
+
+/* New Fonts */
+@font-face {
+    font-family: 'Gotham';
+    src: url('css/fonts/Gotham-Medium.eot');
+    src: url('css/fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+        url('css/fonts/Gotham-Medium.woff2') format('woff2'),
+        url('css/fonts/Gotham-Medium.woff') format('woff'),
+        url('css/fonts/Gotham-Medium.ttf') format('truetype'),
+        url('css/fonts/Gotham-Medium.svg#Gotham-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('css/fonts/Gotham-Bold.eot');
+    src: url('css/fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+        url('css/fonts/Gotham-Bold.woff2') format('woff2'),
+        url('css/fonts/Gotham-Bold.woff') format('woff'),
+        url('css/fonts/Gotham-Bold.ttf') format('truetype'),
+        url('css/fonts/Gotham-Bold.svg#Gotham-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('css/fonts/Gotham-Light.eot');
+    src: url('css/fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+        url('css/fonts/Gotham-Light.woff2') format('woff2'),
+        url('css/fonts/Gotham-Light.woff') format('woff'),
+        url('css/fonts/Gotham-Light.ttf') format('truetype'),
+        url('css/fonts/Gotham-Light.svg#Gotham-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('css/fonts/Gotham-Book.eot');
+    src: url('css/fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+        url('css/fonts/Gotham-Book.woff2') format('woff2'),
+        url('css/fonts/Gotham-Book.woff') format('woff'),
+        url('css/fonts/Gotham-Book.ttf') format('truetype'),
+        url('css/fonts/Gotham-Book.svg#Gotham-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.paddngtb{padding:100px 0;}
+.paddngt{padding-top:100px;}
+.paddngb{padding-bottom:100px;}
+.paddngtb40{padding:40px 0;}
+.paddngtb80{padding:80px 0;}
+.paddngt40{padding-top:40px;}
+.paddngt10{padding-top:10px !important;}
+
+.margnt40{margin-top:40px;}
+.margntb{margin:100px 0;}
+
+
+/***  ABOUT US PAGE ***/
+
+
+/* MAIN TOP HEADING */
+
+.MainTopHeading{text-align:center;}
+.MainTopHeading h3{color:#2f2f2f; font-size: 38px; font-family: GothamBook;}
+.MainTopHeading h2 { font-size:38px;font-family:AGaramond; color:#373533; width:70%; margin:40px auto 40px;
+letter-spacing:1px;}
+
+.MainTopHeading p{ text-align: left;  font-size: 16px; width: 62%; padding-top: 40px; color: #373733; font-family: Gotham;
+    margin: 0 auto;  font-weight: 400;}
+.MainTopHeading h4{    font-size:20px; text-transform: uppercase; letter-spacing: 4px; font-weight: 100;
+ font-family: SackersGothicStd Heavy;}
+
+
+ /* A NOTE FROM DANA LORD LEWIS */
+
+.AboutInn{background-color:#ededed; padding:40px 0 20px;}
+.AboutInn img{border:2px solid #f7f7f7; padding:20px;}
+
+.AboutLordLewis{padding:60px 0;  font-family: 'Gotham';}
+.AboutLordLewis h3 { font-size:20px; font-weight:600; letter-spacing:1px; text-transform:uppercase; color:#2f2f2f;}
+.AboutLordLewis p {text-transform: initial; margin-top:30px; font-size:18px; line-height:24px; color:#2f2f2f; width: 90%;}
+
+/* START PRATICE */
+
+.StartPratice h2 {text-align: center; font-weight: 600; color:#2f2f2f; text-transform: uppercase; letter-spacing:8px;
+    font-size:20px;  font-family: SackersGothicStd;}
+.VideoPlayer{margin-top:60px;}
+
+.StartPraticeInn {font-family: 'Gotham'; margin-top:100px; padding-bottom:20px; border-right:2px solid #2f2f2f;}
+.StartPraticeInn h4{font-weight: 600; text-transform: uppercase; letter-spacing:4px; font-size:20px; padding-bottom:20px;
+color:#2f2f2f;  }
+.StartPraticeInn p{ font-size:18px; color:#373733; min-height:100px; }
+
+.btnCommon {color:#fff; background:#71816f; font-size: 16px; text-transform: uppercase; font-weight: 500;
+ letter-spacing: 4px; border-radius:0; padding:10px 60px; font-weight:500;}
+.btnCommon:hover, .btnCommon:focus{text-decoration:none; color:#fff;}
+
+
+/***  THANK YOU AND ENJOY PAGE First ***/
+
+.ThankYou .MainTopHeading p{width:67.8%;}
+.ThankYou .MainTopHeading h4 { padding-top: 30px; font-size: 26px;}
+
+.ThoughtAbout{background:#ededed; padding-left:60px; padding-right:60px; margin-bottom:40px; height:100%;}
+.ThoughtBox{ background-color: #c1c6b7; height:260px; color: #ffffff; width:250px;
+padding: 75px 10px;  text-align:left; box-shadow: 0px 0px 10px rgba(192,203,199,0.5); margin-bottom:30px;}
+.ThoughtBox h2 {  font-size: 28px; font-family: AGaramond; text-transform: capitalize; font-weight:normal; margin-top:30px;}
+.ThoughtBox h2 b{font-weight:normal; border:1px solid rgba(215, 223, 219, 0.2);}
+.ThoughtBox img{margin-left:10px;}
+
+.ThoughtAbout h4{ font-size:18px; text-transform: uppercase; letter-spacing: 1px; font-weight: 100;
+ font-family: SackersGothicStd Heavy;}
+.ThoughtAbout p{ font-size:18px; color:#373733; font-family: 'Gotham'; font-weight:500; margin-top:20px;}
+
+.RealityVideo{background:#e9e9e9;  padding-left:60px; padding-right:60px; height:100%; border-left:2px solid #f3f3f3;}
+
+.btnDownload {color:#fff; background:#2f2f2f; font-size: 14px; text-transform: uppercase; font-weight: 500;
+ letter-spacing:2px; border-radius:0; padding:6px 30px; font-weight:500;}
+.btnDownload:hover, .btnDownload:focus{text-decoration:none; color:#fff;}
+
+
+/***  THANK YOU AND ENJOY PAGE Second ***/
+
+.StartReality .StartPraticeInn{padding:60px 0; margin-top:0;}
+.StartReality .StartPraticeInn h4{padding-bottom:40px;}
+
+.ThoughtToRealityInn{background:#ededed;}
+.ThoughtToRealityInn .ThoughtAbout{padding:0; background:none;}
+.ThoughtBoxText{padding:60px 0 60px 40px;}
+
+/***  TESTIMONIALS PAGE TAB POWR + HAPPINESS ***/
+
+.TestiLongInn{border-left:1px solid #788e87; padding-left:60px;}
+.TestiLong h1{color:#2f2f2f; font-size:30px; font-family: GothamBook; margin-bottom:30px;}
+.TestiLong p{ font-size:15px; color:#373733; font-family: 'Gotham'; font-weight:500; display:inline-block; padding:0;}
+.readmore{display:inline-block; color:#788e87; text-decoration:none; border-bottom:1px solid #788e87; }
+.TestiLong h6{ font-size:16px; color:#373733; font-family: 'Gotham'; font-weight:500; text-transform: uppercase;
+letter-spacing: 1px;}
+
+#tabs .nav-tabs { border-bottom: 2px solid #898989; border-top: 2px solid #898989; padding: 10px 0;}
+#tabs .nav-tabs .nav-item.show .nav-link, #tabs .nav-tabs .nav-link.active {  color: #737373; background-color: transparent;
+  border:0 none; }
+#tabs .nav-tabs .nav-link { font-weight:500; border:0 none; border-top-left-radius:0; border-top-right-radius:0;
+    color: #c7c7c7;font-size: 20px; text-transform:uppercase; letter-spacing:3px;}
+
+.TestLeft h1{color:#2f2f2f; font-size:30px; font-family: GothamBook;}
+
+.TestiTextInn {margin:20% auto 0; width:59%;}
+.TestiText h1{min-height:40px; text-align:center;}
+.TestiText h1{color:#2f2f2f; font-size:30px; font-family: GothamBook;}
+.TestiTextInn p{ font-size:15px; color:#373733; font-family: 'Gotham'; font-weight:500;  position: relative; margin:18px 0 20px; 
+padding:0;}
+.TestiTextInn img{margin:0 auto; display:block;}
+.TestiTextInn h6{ font-size:18px; color:#373733; font-family: 'Gotham'; font-weight:500; text-transform: uppercase;
+letter-spacing: 1px; text-align: center;  position: absolute; margin: 0 auto; top: 90%; left: 0; right: 0;}
+
+/*.TestiTextInn p:before { position:absolute; content:''; display:block; left:0; right:0; top:-30px; margin:0 auto;
+ text-align:center; background-image:url(../images/Quotetop.png); width:35px; height:100%; background-repeat:no-repeat;}
+.TestiTextInn p:after { position:absolute; content:''; display:block; left:0; right:0; top:150%; margin:0 auto;
+ text-align:center; background-image:url(../images/Quotebottom.png); width:35px; height:100%; background-repeat:no-repeat;}*/
+
+.hrborder{border-bottom: 2px solid #898989; border-top:0 none; margin:0; }
+
+.btnBacktop {color:#fff; background:#71816f; font-size: 14px; text-transform: uppercase; font-weight: 500;
+ letter-spacing:2px; border-radius:0; padding:6px 30px; font-weight:500;}
+.btnBacktop:hover, .btnBacktop:focus{text-decoration:none; color:#fff;}
+
+/************ MEDIA QUERIES ************/
+
+@media screen and (max-width:768px) and (min-width:1200px) {
+	
+    .MainTopHeading h2 {  font-size: 26px;}
+    .MainTopHeading p, .AboutLordLewis p{width:100%;}
+    .MainTopHeading h2 {width:90%;}
+    .MainTopHeading h4{letter-spacing:2px;}
+    .StartPratice h2{font-size:18px; letter-spacing:4px;}
+    .btnCommon{font-size: 12px; letter-spacing:1px; padding:10px 40px;}
+    .StartPraticeInn h4{font-size:15px; letter-spacing:1px;}
+    .StartPraticeInn p {  font-size: 13px;}
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+    .TestiTextInn{width:69%;}
+	.TestiTextInn h6{top:100%;}
+}
+
+@media(max-width:991px){
+    .MainTopHeading h2 {  font-size:36px;}
+    .MainTopHeading p, .AboutLordLewis p, .ThankYou .MainTopHeading p{width:100%;}
+    .MainTopHeading h2 {width:90%;}
+    .MainTopHeading h4{letter-spacing:2px;}
+    .StartPraticeInn h4{font-size:15px; letter-spacing:1px;}
+    .btnCommon{font-size:16px; letter-spacing:1px; padding:10px 60px;}
+    .StartPraticeInn p{font-size:13px;}
+
+    .ThoughtBoxText{padding:20px 0 0px 0px;}
+    .ThoughtToRealityInn .ThoughtAbout{padding:0 40px;}
+    .ThoughtBoxText h4{font-size:16px;}
+
+    .TestiText h1{min-height:inherit;}
+    .TestiTextInn{margin:0 auto; width:80%}
+    .TestiTextInn h6{margin:50px auto 0; top:inherit;}
+}
+
+@media(max-width:767px){
+	
+    .MainTopHeading p, .AboutLordLewis p, .ThankYou .MainTopHeading p{width:100%;}
+    .MainTopHeading h2 { font-size:26px; width:90%;}
+    .MainTopHeading h4{letter-spacing:2px;}
+    
+    .StartPratice h2{font-size:18px; letter-spacing:4px;}
+    .StartPraticeInn h4{font-size:15px; letter-spacing:1px;}
+    .btnCommon{font-size: 12px; letter-spacing:1px; padding:10px 40px;}
+    .StartPraticeInn p{font-size:9px;}
+
+    .ThankYou .MainTopHeading h4{font-size:25px; line-height:40px;}
+
+
+}
+@media(max-width:568px){
+
+     .MainTopHeading p, .AboutLordLewis p, .ThankYou .MainTopHeading p{width:100%;}
+    .MainTopHeading h2 { font-size:26px; width:90%;}
+    .MainTopHeading h4{letter-spacing:2px;}
+    .StartPraticeInn{border-right:0 none;}
+    .StartPratice h2{font-size:18px; letter-spacing:4px;}
+    .StartPraticeInn h4{font-size:18px; letter-spacing:3px;}
+    .btnCommon{font-size:16px; letter-spacing:1px; padding:10px 60px;}
+    .StartPraticeInn p{font-size:18px;}
+
+    .ThoughtAbout h4 {  font-size: 14px;}
+    .ThoughtAbout p { font-size: 15px;}
+
+    .StartReality{padding:60px 0;}
+
+}
+
+
